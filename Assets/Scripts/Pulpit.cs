@@ -68,7 +68,7 @@ public class Pulpit : MonoBehaviour
         spawnedObject.name = "Pulpit Clone";
         spawnedObject.transform.localScale = localScale / 2;
         spawnedObject.transform.position = transform.position;
-        switch (Random.Range(0, 4))
+        switch (Random.Range(0, 3))
         {
             case 0: spawnedObject.transform.position += Vector3.forward * localScale.z; break;
             case 1: spawnedObject.transform.position += Vector3.back * localScale.z; break;
